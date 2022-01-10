@@ -1,0 +1,25 @@
+.listItem {
+  width: fit-content;
+  margin-bottom: 20px;
+  background-color: #102531;
+  padding: 20px;
+  border: 1px solid #17313a;
+}
+
+.playerName {
+  border-bottom: 2px solid #17313a;
+  text-align: center;
+}
+
+.gridItem {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 450px 100px;
+}
+
+.message, .count {
+  padding: 10px;
+  border-bottom: 1px solid #17313a;
+  margin: 0;
+  line-break: anywhere;
+}
